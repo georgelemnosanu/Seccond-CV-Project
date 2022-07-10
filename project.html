@@ -1,0 +1,79 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+
+    <div class="container" id="books">
+
+
+<nav>
+
+<img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png" class="logo">
+<a href="#" class="btn">Your Book</a>
+
+</nav>
+
+
+
+
+<div class="description">
+
+    <h1>Look for your book</h1>
+    
+    
+    <p id="write">A library is a collection of materials, books or media that are accessible for use and not just for display purposes. A library provides physical (hard copies) or digital access (soft copies) materials, and may be a physical location or a virtual space, or both </p>
+    
+    <h2> Choose your book </h2>
+
+    <div class="selectbook">
+
+       <div id="redbook"></div>
+       <div id="yellowbook"></div>
+       <div id="greenbook"></div>
+
+
+
+    </div>
+    
+
+    </div>
+
+</div>
+
+<script>
+
+let redBtn=document.getElementById("redbook");
+let yellowBtn=document.getElementById("yellowbook");
+let greenBtn=document.getElementById("greenbook");
+let books =document.getElementById("books");
+let writestyle=document.getElementById("write");
+
+
+redBtn.onclick = function() {
+    books.style.backgroundImage = "url('https://img5.goodfon.com/wallpaper/nbig/4/70/vyveska-neon-slovo-knigi-svet-krasnyi.jpg')";
+    write.style.color="#FFFFFF";
+}
+
+yellowBtn.onclick = function() {
+    books.style.backgroundImage = "url('https://media.istockphoto.com/photos/books-on-a-yellow-background-picture-id960610662?k=20&m=960610662&s=170667a&w=0&h=h29kQj6B3iMxcR_Jm_lVjHY0jFczYQFgBCSpbSJoVwM=')";
+    write.style.color="#000000";
+}
+greenBtn.onclick = function() {
+   books.style.backgroundImage = "url('https://wallpaperaccess.com/full/4010322.jpg')";
+    write.style.color="#000000";
+}
+
+
+
+</script>
+
+</body>
+
+
+</html>

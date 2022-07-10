@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width:100%;
+    height:100vh;
+    background: url(https://media.istockphoto.com/photos/books-on-a-yellow-background-picture-id960610662?k=20&m=960610662&s=170667a&w=0&h=h29kQj6B3iMxcR_Jm_lVjHY0jFczYQFgBCSpbSJoVwM=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 5%;
+
+}
+
+nav{
+    width: 100%;
+    justify-content:space-between;
+    display:flex;
+    align-items: center;
+}
+
+nav .logo { width:100px;
+    border:none;
+
+          
+}
+
+
+nav .btn {
+    margin-left:120px;
+    display:inline-flex;
+          width:150px;
+          height:60px;
+          align-items:center;
+          justify-content: center;
+          text-decoration: none;
+          font-size:25px;
+          margin: 10px;
+          border-radius: 25%;
+          background-color: rgb(234, 74, 74);
+          color:aliceblue;
+          background-size: 100% 200%;
+          background-position: 0% 100%;
+          transition:background-position 2s;
+}
+
+
+.btn:hover{
+    background-image: linear-gradient(white 50%, #5fe038 50%);
+    color:white;
+}
+
+
+.description{
+    margin-left:45px;
+}
+.description h1{
+    margin-top:50px;
+    color:red;
+
+}
+
+.description p{
+    margin-top: 25px;
+    color:#000000;
+    font-style: italic;
+    width:400px;
+    line-height: 1.5;
+    font-weight: bolder;
+    
+}
+
+.description h2{
+    margin-top:10px;
+    color:#333;
+}
+
+.selectbook div{
+    background: #333;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right:1%;
+}
+
+.selectbook {
+    display:flex;
+    margin-top: 30px;
+    
+}
+
+
+.selectbook #redbook{
+    background: rgb(229, 49, 49);
+
+}
+
+.selectbook #yellowbook{
+    background: rgb(214, 214, 0);
+}
+
+.selectbook #greenbook{
+   background: rgb(32, 174, 32);
+
+}
+
+
